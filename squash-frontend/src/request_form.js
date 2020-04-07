@@ -56,7 +56,7 @@ function RequestForm(props) {
             <FormText>Separate paragraphs with newline characters. Do not insert any sensitive information.
                        More than 3 paragraphs / 2000 characters in a paragraph will be truncated.</FormText>
             <Input type="textarea" name="text" id="squashInputText" rows="8" /> <br />
-            <Button color="primary"  onClick={props.squashDoc}><span className="squashtitleemph">SQUASH</span></Button>
+            <Button color="primary"  onClick={props.squashDoc}><span className="squashtitleemph">CONTINUE</span></Button>
         </Form>
     );
 }

@@ -199,16 +199,13 @@ class SquashDemo extends React.Component {
             <div className="container-fluid">
                 <Helmet>
                     <meta charSet="utf-8" />
-                    <title>SQUASH!</title>
+                    <title>QA Generator</title>
                 </Helmet>
                 <Row>
                     <Col md={{order: 2, size: 5}} xs={{order: 1}}>
-                        <h5>A demo for <a href="https://arxiv.org/abs/1906.02622">Generating Question-Answer Hierarchies</a></h5>
-                        <p>This system converts a sequence of paragraphs into a hierarchy of question-answer pairs, with general questions at the top level and specific questions underneath.
-                         Check out our <a href="http://squash.cs.umass.edu/">landing page</a> for more details.
-                         Feel free to fork and use the <a href="https://github.com/martiansideofthemoon/squash-website">source code</a> for this demo.</p>
-                        <p>Contact <a href="mailto:kalpesh@cs.umass.edu">kalpesh@cs.umass.edu</a> if you run into any issues.</p>
-
+                        <br></br>
+                        <h3>A demo for Generating Question-Answer Hierarchies</h3>
+                        <p>This system converts a sequence of paragraphs into a hierarchy of question-answer pairs, with general questions at the top level and specific questions underneath.</p>
                     </Col>
                     <Col md={{order: 2, size: 7}} xs={{order: 2}}>
                         {
@@ -229,7 +226,7 @@ class SquashDemo extends React.Component {
                             </div>
                             <div>
                             <FormText>When set to "Original answers", the displayed answers will be the same as the text spans provided to the question generation
-                            system as input (see section 3.1 of the <a href="https://arxiv.org/pdf/1906.02622.pdf#page=3">paper</a>). When set to "Predicted answers", the displayed answers are the output of a BERT-based QA
+                            system as input (see section 3.1 of the project report). When set to "Predicted answers", the displayed answers are the output of a BERT-based QA
                             model when fed the generated questions. Predicted answers are generally shorter and more accurate, while original answers offer more insight into
                             the context that produced the question. </FormText>
                             </div>
